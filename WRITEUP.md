@@ -11,4 +11,4 @@
 ### App changes in future.
 
 *However, In future our app could get bigger and we might need to use and develop more services to enhance our CMS website.* 
-*So we could change our cloud computing plan to VM to meet our needs and satisfy the different requierments of our CMS system such as more CPU, RAM and storage*  
+*So we could change our cloud computing plan to VM to meet our needs and satisfy the different requierments of our CMS system such as more CPU, RAM and storage* test  
