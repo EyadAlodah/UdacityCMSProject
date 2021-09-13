@@ -72,22 +72,22 @@ Total Esimated Price Per Month : 135.64 USD
 
 ## Architecture Explanation
 
-*Migrating to azure will give us many benefits, such as availability, reliability and scalability. Using
-Azure web app will provide the required tools and services to satisfy the conference website.*
+Migrating to azure will give us many benefits, such as availability, reliability and scalability. Using
+Azure web app will provide the required tools and services to satisfy the conference website.
 
-*Azure web app is fully managed service which means we will only focus on the development of
+Azure web app is fully managed service which means we will only focus on the development of
 the website, and azure web app will help us in continuous integration with Visual Studio Online
-and GitHub, staging and production support, and automatic patching.*
+and GitHub, staging and production support, and automatic patching.
 
-*For the database, migrating to the PostgreSQL on Azure will be the suitable solution for the
+For the database, migrating to the PostgreSQL on Azure will be the suitable solution for the
 conference website data. PostgreSQL on azure is a fully managed database platform. It provides
 database management capabilities that require minimal configuration, including availability,
-security, backups, and patching.*
+security, backups, and patching.
 
-*Regarding sending the notification to the attendees, using azure functions will help us in
+Regarding sending the notification to the attendees, using azure functions will help us in
 implementing it in the background. We will push the notification id to azure bus service queue.
 Once it is pushed the azure function will be triggered and it will send the emails to the
-attendees.*
+attendees.
 
 The following are the list of the services that we will use to migrate the conference website to
 azure:
